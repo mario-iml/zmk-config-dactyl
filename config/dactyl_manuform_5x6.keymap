@@ -6,6 +6,17 @@
 #define DEFAULT 0
 #define LWR 1
 
+&mt {
+    // 1. Set the timeout (ms)
+    tapping-term-ms = <200>;
+
+    // 2. Prioritize the Tap logic for fast typing
+    flavor = "tap-preferred";
+
+    // 3. (Optional) Allow repeating space by tapping quickly twice
+    quick-tap-ms = <175>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";

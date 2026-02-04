@@ -8,13 +8,13 @@
 
 &mt {
     // 1. Set the timeout (ms)
-    tapping-term-ms = <250>;
+    tapping-term-ms = <120>;
 
     // 2. Prioritize the Tap logic for fast typing
     flavor = "tap-preferred";
 
     // 3. (Optional) Allow repeating space by tapping quickly twice
-    quick-tap-ms = <175>;
+    quick-tap-ms = <100>;
 };
 
 / {

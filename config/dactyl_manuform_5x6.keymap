@@ -9,7 +9,7 @@
 
 &mt {
     // 1. Set the timeout (ms)
-    tapping-term-ms = <120>;
+    tapping-term-ms = <200>;
 
     // 2. Prioritize the Tap logic for fast typing
     flavor = "tap-preferred";

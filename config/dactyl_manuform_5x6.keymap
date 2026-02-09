@@ -42,7 +42,7 @@
                 &kp CAPS   &kp A  &kp X  &kp C     &kp V     &kp B                         &kp N    &kp M    &kp COMMA  &kp DOT &kp SEMI &kp SQT
                 &kp LSHIFT &kp Z &kp DEL &kp GRAVE                                                  &kp LBKT &kp RBKT  &kp FSLH &kp BSLH
                                          &kp LALT &kp SPACE &lt LWR BSPC                 &lt LWR BSPC &mt RSHIFT SPACE &mt RALT ESC
-                                              &kp LWIN &mt LCTRL ENTER                        &mt RCTRL ENTER &kp RWIN
+                                              &kp LSHIFT &mt LCTRL ENTER                        &mt RCTRL ENTER &kp RWIN
             >;
         };
 
